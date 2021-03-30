@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: g++ build active file",
+			"label": "Build",
 			"command": "/usr/bin/g++",
 			"args": [
 				"-g",
@@ -22,7 +22,7 @@
 		},
         {
             "type": "shell",
-            "label": "execute",
+            "label": "Execute",
             "command": "${fileDirname}/contents/${fileBasenameNoExtension}",
             "group": "test",
             "presentation": {
