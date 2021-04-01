@@ -9,7 +9,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/contents/${fileBasenameNoExtension}"
+				"${fileDirname}/../contents/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
@@ -23,7 +23,7 @@
         {
             "type": "shell",
             "label": "Execute",
-            "command": "${fileDirname}/contents/${fileBasenameNoExtension}",
+            "command": "${fileDirname}/../contents/${fileBasenameNoExtension}",
             "group": "test",
             "presentation": {
                 "clear": true
