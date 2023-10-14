@@ -5,3 +5,6 @@ contents/**
 
 test.cpp
 settings.json
+
+.idea/
+out/
